@@ -1,0 +1,51 @@
+/* RESET & BODY */
+* { margin:0; padding:0; box-sizing:border-box; }
+html, body { height:100%; font-family:'Segoe UI', Tahoma, sans-serif; }
+body {
+  background: linear-gradient(to bottom right, #667eea, #764ba2);
+  display:flex; align-items:center; justify-content:center;
+}
+
+/* CONTAINER & FORM */
+.container { width:100%; max-width:400px; padding:20px; }
+.form-box {
+  background: rgba(255,255,255,0.15); backdrop-filter: blur(10px);
+  border-radius:12px; padding:30px; color:#fff;
+}
+.form-box h2 { text-align:center; margin-bottom:5px; font-size:1.8rem; }
+.subtitle { text-align:center; font-size:0.9rem; margin-bottom:20px; opacity:0.9; }
+
+/* LABEL & INPUT */
+.form-box label { display:block; margin:12px 0 5px; font-size:0.9rem; }
+.form-box input {
+  width:100%; padding:12px; border:none; border-radius:8px;
+  background: rgba(255,255,255,0.25); color:#fff; font-size:1rem;
+}
+.form-box input::placeholder { color:rgba(255,255,255,0.7); }
+
+/* OPTIONS (checkbox + link) */
+.options {
+  display:flex; justify-content:space-between; align-items:center;
+  margin:10px 0 20px;
+}
+.checkbox { display:flex; align-items:center; font-size:0.85rem; }
+.checkbox input { margin-right:5px; width:16px; height:16px; }
+.forgot { font-size:0.85rem; color:#fff; text-decoration:none; opacity:0.9; }
+.forgot:hover { opacity:1; }
+
+/* BUTTON */
+.btn {
+  width:100%; padding:12px; margin-top:10px; border:none; border-radius:8px;
+  background:rgba(255,255,255,0.3); color:#fff; font-size:1rem;
+  cursor:pointer; transition:background 0.3s;
+}
+.btn:hover { background:rgba(255,255,255,0.45); }
+
+/* SWITCH LOGIN/REGISTER */
+.switch {
+  text-align:center; margin-top:15px; font-size:0.9rem; opacity:0.9;
+}
+.switch a { color:#fff; text-decoration:underline; font-weight:600; }
+
+/* CHECKBOX ĐIỀU KHOẢN */
+.agree { margin:15px 0; font-size:0.85rem; }
